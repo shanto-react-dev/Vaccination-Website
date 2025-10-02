@@ -13,7 +13,7 @@ const Header = () => {
           <div className="container">
             <div className="header-area">
               <div className="header-logo">
-                <img src="../public/img/logo.png" alt="logo" />
+                <img src="/img/logo.png" alt="logo" />
               </div>
               <div className="header-menu">
                 <ul>
@@ -38,7 +38,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="banner-img">
-                <img src="../public/img/group22.png" alt="banner" />
+                <img src="/img/group22.png" alt="banner" />
               </div>
             </div>
             <div className="time-area">

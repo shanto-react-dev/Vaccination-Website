@@ -10,12 +10,12 @@ export default {
       center: true,
     },
     backgroundImage: {
-      'banner-img' : "url('public/img/bannerbg.png')",
-      'img-2' : "url('public/img/bg2.png')",
-      'img-3' : "url('public/img/bg3.png')",
-      'img-4' : "url('public/img/gradiyen.png')",
-      'vaccine': "url('public/img/vaccine.png')",
-      'footer-img' : "url('public/img/footer.png')"
+      'banner-img' : "url('/img/bannerbg.png')",
+      'img-2' : "url('/img/bg2.png')",
+      'img-3' : "url('/img/bg3.png')",
+      'img-4' : "url('/img/gradiyen.png')",
+      'vaccine': "url('/img/vaccine.png')",
+      'footer-img' : "url('/img/footer.png')"
     },
     fontFamily: {
       'montserrat' : ["Montserrat", 'sans-serif']

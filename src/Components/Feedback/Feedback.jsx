@@ -17,7 +17,7 @@ const Feedback = () => {
                             <div className="feedback-box">
                                 <div className="feedback-info">
                                     <div className="feedback-img">
-                                        <img src="../public/img/Rectangle-25.png" alt="person" />
+                                        <img src="/img/Rectangle-25.png" alt="person" />
                                     </div>
                                     <div className="feedback-name">
                                         <h2>Oyindamola Maja</h2>
@@ -33,7 +33,7 @@ const Feedback = () => {
                             <div className="feedback-box-1">
                                 <div className="feedback-info">
                                     <div className="feedback-img">
-                                        <img src="../public/img/Rectangle-24.png" alt="person" />
+                                        <img src="/img/Rectangle-24.png" alt="person" />
                                     </div>
                                     <div className="feedback-name-1">
                                         <h2>Okeowo Lekan</h2>
@@ -49,7 +49,7 @@ const Feedback = () => {
                             <div className="feedback-box">
                                 <div className="feedback-info">
                                     <div className="feedback-img">
-                                        <img src="../public/img/Rectangle-26.png" alt="person" />
+                                        <img src="/img/Rectangle-26.png" alt="person" />
                                     </div>
                                     <div className="feedback-name">
                                         <h2>Kafaru Temitope</h2>

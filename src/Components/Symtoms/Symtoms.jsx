@@ -13,7 +13,7 @@ const Symtoms = () => {
                         <p>Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis aenean eu velit. Mi vestibulum, ullamcorper venenatis imperdiet augue arcu donec neque.</p>
                     </div>
                     <div className="symtoms-img">
-                        <img src="../public/img/group65.png" alt="group65" />
+                        <img src="/img/group65.png" alt="group65" />
                     </div>
                 </div>
             </div>

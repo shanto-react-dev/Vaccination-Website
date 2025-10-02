@@ -22,7 +22,7 @@ const Registration = () => {
                         <p>Notifications for appointment and reminders will be sent to this provided number</p>
                         <div className="verify">
                           <div className="flag">
-                            <img src="../public/img/nigeria.png" alt="flag" />
+                            <img src="/img/nigeria.png" alt="flag" />
                             <FaAngleDown />
                           </div>
                           <div className="line"></div>
@@ -39,7 +39,7 @@ const Registration = () => {
                       </div> 
                     </div>
                     <div className="registration-img">
-                      <img src="../public/img/Group-45.png" alt="img" />
+                      <img src="/img/Group-45.png" alt="img" />
                     </div>
                 </div>
             </div>

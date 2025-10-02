@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-end">
                         <div className="footer-logo">
-                            <img src="../public/img/logo.png" alt="footer" />
+                            <img src="/img/logo.png" alt="footer" />
                         </div>
                         <div className="footer-menu">
                             <ul>
