@@ -1,0 +1,73 @@
+.registration {
+    @apply bg-img-4 bg-cover bg-center bg-no-repeat
+}
+.registration-area {
+    @apply flex justify-between pt-[40px] pb-[33px] items-center
+}
+.registration-header h2 {
+    @apply font-montserrat font-bold text-[48px] leading-normal text-black mb-[40px] text-center w-[450px]
+}
+.registration-name {
+    @apply mb-[40px]
+}
+.registration-name h4 {
+    @apply font-montserrat font-bold text-[24px] text-black leading-normal mb-[20px]
+}
+.registration-name input {
+    @apply w-[650px] h-[70px] pl-[29px] pr-[20px] rounded-[20px] bg-[rgba(11,21,60,0.15)] font-montserrat font-medium text-[24px] leading-normal text-[rgba(0,0,0,0.25)]
+}
+.registration-name input:focus {
+    @apply outline-none
+}
+.registration-number {
+    @apply mb-[58px]
+}
+.registration-number h4 {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-black mb-[20px]
+}
+.registration-number p {
+    @apply font-montserrat font-medium text-[20px] leading-normal text-[rgba(0,0,0,0.50)] mb-[21.5px] w-[652px]
+}
+.registration-number .verify {
+    @apply flex items-center gap-[36px] relative
+}
+.registration-number .verify input {
+    @apply w-[400px] h-[70px] pr-[10px] rounded-[20px] bg-[rgba(11,21,60,0.15)] pl-[134px] font-montserrat font-medium text-[24px] leading-normal text-[rgba(0,0,0,0.25)]
+}
+.registration-number .verify input:focus {
+    @apply outline-none
+}
+.registration-number .verify a {
+    @apply px-[70px] py-[20px] rounded-[20px] bg-[#17C2EC] font-montserrat font-bold text-[24px] leading-normal text-white  transition-all duration-300
+}
+.registration-number .verify a:hover {
+    @apply bg-[#1189a7]
+}
+.registration-button {
+    @apply mb-[60px]
+}
+.registration-button a {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-white px-[279px] py-[20px] bg-[#17C2EC] rounded-[20px]
+     transition-all duration-300
+}
+.registration-button a:hover {
+    @apply bg-[#1189a7]
+}
+.registration-chk {
+    @apply flex gap-[48px] items-center justify-center
+}
+.registration-chk h3 {
+    @apply font-montserrat font-semibold text-[20px] leading-normal text-[rgba(0,0,0,0.50)]
+}
+.registration-chk a {
+    @apply font-montserrat font-bold text-[20px] leading-normal text-[#17C2EC]
+}
+.registration-chk a:hover {
+    @apply underline
+}
+.line {
+    @apply w-[3px] h-[40px] rounded bg-[rgba(0,0,0,0.10)] absolute left-[17%]
+}
+.flag {
+    @apply flex items-center gap-[10px] text-[24px] text-[rgba(0,0,0,0.25)] absolute left-[4%]
+}

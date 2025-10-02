@@ -1,0 +1,78 @@
+.header {
+    @apply bg-banner-img pt-[61px] bg-no-repeat bg-center bg-cover
+}
+.header-area {
+    @apply flex justify-between items-center pb-[120px]
+}
+.header-menu ul {
+    @apply flex gap-[25px]
+}
+.header-menu ul li a {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-[rgba(255,255,255,0.50)] transition-all duration-300
+}
+.header-menu ul li a:hover {
+    @apply text-white
+}
+.header-button a {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-[#17C2EC] transition-all duration-300 px-[26px] py-[20px] rounded-[20px] bg-[rgba(196,196,196,0.10)]
+}
+.header-button a:hover {
+    @apply text-white bg-[#17C2EC]
+}
+.banner-area {
+    @apply flex justify-between pb-5
+}
+.banner-texts h3 {
+    @apply font-montserrat font-bold text-[32px] leading-normal text-[#17C2EC] mb-[40px]
+}
+.banner-texts h1 {
+    @apply font-montserrat font-extrabold text-[48px] leading-normal text-white w-[551px] mb-[50px]
+}
+.banner-texts a {
+    @apply text-[#17C2EC]
+}
+.banner-texts p {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-[rgba(255,255,255,0.50)] w-[610px] mb-[50px]
+}
+.button1 {
+    @apply flex gap-5
+}
+.button1 a {
+    @apply px-[25px] py-[20px] rounded-[20px] bg-[rgba(196,196,196,0.10)] border-[2px] border-[#17C2EC] text-white transition-all duration-300 font-montserrat font-bold text-[24px] leading-normal
+}
+.button1 a:hover {
+    @apply bg-[#17C2EC]
+}
+.time-name {
+    @apply flex gap-5 items-center pb-[20px]
+}
+.time-icon {
+    @apply px-[10px] py-[10px] rounded-[10px] bg-[rgba(196,196,196,0.10)] text-[#17C2EC] text-[30px]
+}
+.time-head h4 {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-white
+}
+.time-see {
+    @apply bg-[rgba(196,196,196,0.05)] px-[40px] py-[46px] rounded-tl-[20px] rounded-tr-[20px] flex justify-between items-center
+}
+.time-info {
+    @apply flex gap-[50px]
+}
+.time-box {
+    @apply flex gap-5 items-center
+}
+.time-icon1 {
+    @apply px-[10px] py-[10px] rounded-[10px] bg-[rgba(196,196,196,0.10)] text-[#17C2EC] text-[30px]
+}
+.time-text1 h4 {
+    @apply font-montserrat font-semibold text-[24px] leading-normal text-[rgba(255,255,255,0.50)]
+}
+.time-text1 p {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-white
+}
+.time-button2 a {
+    @apply px-[25px] py-[20px] rounded-[20px] bg-[#17C2EC] font-montserrat font-bold text-[24px] leading-normal text-white transition-all duration-300
+}
+.time-button2 a:hover {
+    @apply bg-[rgba(23,193,236,0.70)]
+}

@@ -1,0 +1,72 @@
+.vaccinated {
+    @apply bg-img-3 bg-cover bg-center bg-no-repeat
+}
+.vaccinated-area {
+    @apply pt-[57px] pb-[80px]
+}
+.vaccinated-head {
+    @apply flex justify-between mb-[40px]
+}
+.vaccinated-head h2 {
+    @apply font-montserrat font-bold text-[48px] leading-normal text-white w-[504px]
+}
+.vaccinated-head p {
+    @apply font-montserrat font-medium text-[20px] leading-normal text-[rgba(255,255,255,0.50)] w-[537px]
+}
+.vaccinated-border {
+    @apply flex justify-between items-end
+}
+.vaccinated-box-1 {
+    @apply pt-[40px] pb-[84px] pl-[40px] pr-[56px] bg-[rgba(196,196,196,0.20)] rounded-tl-[50px] rounded-bl-[50px] rounded-br-[50px] rounded-tr-[150px] scale-100 transition-all duration-300
+}
+.vaccinated-box-1:hover {
+    @apply scale-105
+}
+.vaccination-icon-1 {
+    @apply w-[100px] h-[100px] bg-[rgba(196,196,196,0.10)] rounded-[30px] text-[#17C2EC] text-[70px] flex items-center justify-center mb-[40px]
+}
+.vaccination-header-2 h3 {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-[#17C2EC] w-[288px] mb-[30px]
+}
+.vaccination-para p {
+    @apply font-montserrat font-medium text-[18px] leading-normal text-white w-[352px] mb-[40px]
+}
+.vaccination-more-1 {
+    @apply flex gap-[10px]
+}
+.vaccination-more-1 a {
+    @apply font-montserrat font-bold text-[18px] leading-normal text-[#17C2EC]
+}
+.vaccination-more-1 .iconed-1 {
+    @apply text-[30px] text-[#17C2EC]
+}
+.vaccinated-box {
+    @apply w-[350px] h-[350px] rounded-[50px] border-[3px] border-[rgba(255,255,255,0.50)] scale-100 transition-all duration-300 flex flex-col justify-center pl-[40px]
+}
+.vaccinated-box:hover {
+    @apply scale-105
+}
+.vaccination-icon {
+    @apply w-[70px] h-[70px] bg-[rgba(196,196,196,0.10)] rounded-[21px] text-white text-[49px] flex items-center justify-center mb-[40px]
+}
+.vaccination-header h3 {
+    @apply font-montserrat font-bold text-[24px] text-[#ffffff] mb-[53px] leading-normal w-[256px]
+}
+.vaccination-header-1 {
+    @apply mb-[82px]
+}
+.vaccination-header-1 h3 {
+    @apply font-montserrat font-bold text-[24px] text-[#ffffff] leading-normal w-[256px]
+}
+.vaccination-more {
+    @apply flex gap-[10px]
+}
+.vaccination-more a {
+    @apply font-montserrat font-bold text-[18px] leading-normal text-[rgba(255,255,255,0.50)] transition-all duration-300
+}
+.vaccination-more a:hover {
+    @apply text-white
+}
+.vaccination-more .iconed {
+    @apply text-[30px] text-[rgba(255,255,255,0.50)]
+}

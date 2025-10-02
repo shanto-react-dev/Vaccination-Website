@@ -1,0 +1,51 @@
+.footer {
+    @apply bg-footer-img bg-cover bg-center bg-no-repeat h-[500px] relative
+}
+.footer-end {
+    @apply flex justify-between items-center pt-[327px]
+}
+.footer-menu ul {
+    @apply flex gap-[25px]
+}
+.footer-menu ul li a {
+    @apply font-montserrat font-medium text-[24px] leading-normal text-[rgba(255,255,255,0.50)] transition-all duration-300
+}
+.footer-menu ul li a:hover {
+    @apply text-white
+}
+.footer-icon {
+    @apply flex gap-[10px] text-[rgba(255,255,255,0.50)] text-[50px]
+}
+.footer-icon .icon {
+    @apply cursor-pointer transition-all duration-300
+}
+.footer-icon .icon:hover {
+    @apply text-white
+}
+.footer-part {
+    @apply flex
+}
+.footer-box {
+    @apply pt-[70px] pb-[107px] px-[241px] rounded-[50px] bg-[#17C2EC] outline-[17px] outline-[rgba(196,196,196,0.15)] outline absolute top-[-45%] ml-[13%]
+}
+.footer-head h2 {
+    @apply font-montserrat font-bold text-[48px] leading-normal text-white mb-[20px] text-center
+}
+.footer-head p {
+    @apply font-montserrat font-medium text-[24px] leading-normal text-white mb-[40px] text-center
+}
+.footer-input {
+    @apply flex items-center justify-center scale-100 transition-all duration-300
+}
+.footer-input input {
+    @apply pt-[28px] pb-[29px] pl-[37px] pr-[196px] rounded-l-[30px] font-montserrat font-medium text-[20px] leading-normal text-[rgba(0,0,0,0.25)] 
+}
+.footer-input:hover {
+    @apply scale-105
+}
+.footer-input input:focus {
+    @apply outline-none
+}
+.footer-input a {
+    @apply pt-[24px] pb-[25px] px-[30px] rounded-r-[30px] bg-[#0B153C] text-[40px] text-white
+}

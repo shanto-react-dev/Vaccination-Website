@@ -1,0 +1,6 @@
+.logo {
+    @apply bg-[rgba(255,255,255,0.5)] pt-[21px] pb-[11px]
+}
+.logo-area {
+    @apply flex justify-between  items-center
+}

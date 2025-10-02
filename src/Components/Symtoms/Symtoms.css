@@ -1,0 +1,18 @@
+.symtoms {
+    @apply bg-img-3 bg-cover bg-center bg-no-repeat
+}
+.symtoms-area {
+    @apply flex flex-col justify-center items-center text-center pt-[67px]
+}
+.symtoms-text h4 {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-white mb-[20px]
+}
+.symtoms-text h1 {
+    @apply font-montserrat font-extrabold text-[48px] leading-normal text-white mb-[40px]
+}
+.symtoms-text span {
+    @apply text-[#17C2EC]
+}
+.symtoms-text p {
+    @apply font-montserrat font-medium text-[24px] leading-normal text-[rgba(255,255,255,0.50)] mb-[179px] w-[952px]
+}

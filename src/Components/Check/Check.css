@@ -1,0 +1,45 @@
+.check {
+    @apply bg-img-2 pt-[62px] pb-[63px] bg-no-repeat bg-center bg-cover
+}
+.check-area {
+    @apply flex justify-center items-center
+}
+.check-box {
+    @apply rounded-[20px] bg-[rgba(196,196,196,0.10)]
+}
+.check-upper {
+    @apply py-[36px] pl-[96px] rounded-tl-[20px] rounded-tr-[20px] bg-[rgba(196,196,196,0.05)]
+}
+.check-head h3 {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-white
+}
+.check-down {
+    @apply pt-[35px] pb-[31px] pl-[96px] pr-[91px]
+}
+.check-input {
+    @apply flex gap-5 items-center mb-[35px]
+}
+.check-input input {
+    @apply py-[20px] pl-[26px] pr-[117px] rounded-[20px] bg-transparent border-[3px] border-[rgba(196,196,196,0.15)] font-montserrat font-medium text-[24px] leading-normal text-[rgba(255,255,255,0.50)] transition-all duration-300
+}
+.check-input input:focus {
+    @apply border-[#17C2EC] text-white outline-none
+}
+.check-input .button3 a {
+    @apply border-[#17C2EC] border-[3px] rounded-[20px] bg-[rgba(196,196,196,0.10)] px-[46.5px] py-[23px]
+}
+.check-input .button3 a {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-[#17C2EC] transition-all duration-300
+}
+.check-input .button3 a:hover {
+    @apply text-white bg-[#17C2EC]
+}
+.check-button a {
+    @apply px-[175px] py-[20px] rounded-[20px] bg-[rgba(196,196,196,0.05)] flex justify-center items-center 
+}
+.check-button a {
+    @apply font-montserrat font-bold text-[24px] leading-normal text-[#17C2EC] transition-all duration-300
+}
+.check-button a:hover {
+    @apply bg-[#17C2EC] text-white
+}
